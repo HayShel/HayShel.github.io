@@ -3287,6 +3287,22 @@ html.no-csstransitions .hero-content {
 /* ------------------------------------------------------------------- 
  * ## contact block
  * ------------------------------------------------------------------- */
+.column .label {
+	font-family: "Gothic A1", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.column .input {
+font-family: "Gothic A1", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.2;
+	}
+
+
+
 .footer-contact-block {
   font-family: "Gothic A1", sans-serif;
   font-weight: 400;
