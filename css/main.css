@@ -3258,12 +3258,13 @@ html.no-csstransitions .hero-content {
 form {
   width: 400px;
   margin: auto;
-  color: #333;
+  color: #ffffff;
 }
 
 label {
   display: block;
   margin-bottom: 10px;
+  color: #ffffff; /* 🔴 change this to whatever color you want */
 }
 
 input, textarea {
@@ -3274,13 +3275,15 @@ input, textarea {
   border-radius: 5px;
   border: 1px solid #ccc;
   font-size: 16px;
-	color: #000 !important;
+}
+input, textarea {
+  color: #ffffff !important;
 }
 
 button {
-  padding: 12px;
+  padding: 0px;
   width: 100%;
-  background-color: black;
+  background-color: grey;
   color: white;
   border: none;
   border-radius: 5px;
