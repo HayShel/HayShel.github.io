@@ -3255,6 +3255,48 @@ html.no-csstransitions .hero-content {
  * # footer
  *
  * ------------------------------------------------------------------- */
+form {
+  width: 400px;
+  margin: auto;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+	color: #000 !important;
+}
+
+button {
+  padding: 12px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+input, textarea {
+  width: 100%;      /* full width inside form */
+  padding: 10px;    /* increases height */
+  font-size: 16px;  /* text size inside fields */
+}
+
+form {
+  width: 1800px;     /* fixed width */
+  max-width: 100%;  /* keeps it responsive */
+}
+
 .s-footer {
   padding-top: 24rem;
   padding-bottom: 8rem;
