@@ -3260,7 +3260,9 @@ form {
   margin: auto;
   color: #ffffff;
 }
-
+form label {
+  color: #ffffff;
+}
 label {
   display: block;
   margin-bottom: 10px;
@@ -3279,7 +3281,7 @@ input, textarea {
 }
 
 button {
-  padding: 0px;
+  padding: px;
   width: 100%;
   background-color: grey;
   color: white;
